@@ -6,15 +6,18 @@
 
 /* ---------- Variables ---------- */
 :root {
-  --bg:      #0a0a0f;
-  --surface: #13131a;
-  --border:  #1e1e2e;
+  --bg-from:      #d8b4fe;
+  --bg-to:    #93c5fd;
+  --card-bg:  #ffffff;
   --accent:  #6ef0c8;
-  --text:    #e8e8f0;
+  --text:    #1a1b4b;
   --muted:   #6b6b80;
 
   --font-display: 'Syne', sans-serif;
   --font-body:    'DM Sans', sans-serif;
+
+  --radius-card:  20px;
+  --shadow-card:  0 8px 32px rgba(124, 58, 237, 0.12);
 }
 
 /* ---------- Reset ---------- */
@@ -23,12 +26,22 @@
 /* ---------- Base ---------- */
 body {
   font-family: var(--font-body);
-  background: var(--bg);
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg-from) 0%, var(--bg-to) 100%);
+  background-attachment: fixed;
   color: var(--text);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  background-image:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(110,240,200,0.06), transparent);
+  padding: 2rem;
+}
+
+/* ---------- Card Block ---------- */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius-card);
+  padding: 2rem 2.5rem;
+  box-shadow: var(--shadow-card);
+  margin-bottom: 1.5rem;
 }
 
 /* ---------- Typography ---------- */
