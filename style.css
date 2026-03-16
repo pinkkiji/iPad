@@ -36,7 +36,7 @@ body {
   padding: 2rem;
 }
 
-header-title {
+.header-title {
   font-family: var(--font-display);
   font-size: 2rem;
 }
