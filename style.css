@@ -1,0 +1,56 @@
+/* ============================================
+   style.css — Portfolio Modern Theme
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* ---------- Variables ---------- */
+:root {
+  --bg:      #0a0a0f;
+  --surface: #13131a;
+  --border:  #1e1e2e;
+  --accent:  #6ef0c8;
+  --text:    #e8e8f0;
+  --muted:   #6b6b80;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+}
+
+/* ---------- Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ---------- Base ---------- */
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(110,240,200,0.06), transparent);
+}
+
+/* ---------- Typography ---------- */
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--text) 40%, var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+p { color: var(--muted); max-width: 60ch; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { opacity: 0.75; }
