@@ -37,6 +37,11 @@ body {
   margin: 1rem;
 }
 
+div {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   font-family: var(--font-display);
   font-size: 2rem;
