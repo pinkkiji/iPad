@@ -54,6 +54,7 @@ body {
   padding: 2rem 2.5rem;
   box-shadow: var(--shadow-card);
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 /* ---------- Typography ---------- */
