@@ -33,7 +33,7 @@ body {
   color: var(--text);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  padding: 0;
+  padding: 1rem;
   margin: 1rem;
 }
 
