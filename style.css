@@ -50,6 +50,7 @@ header, nav {
   padding: 1rem;
   margin: 0;
   background-color: #ddd;
+  border-end-end-radius: var(--radius-card);
 }
 
 /* ---------- Card Block ---------- */
