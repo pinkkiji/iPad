@@ -61,10 +61,9 @@ div {
 .card {
   background: var(--card-bg);
   border-radius: var(--radius-card);
-  padding: g 2.5rem;
+  padding: 2rem;
   box-shadow: var(--shadow-card);
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin: 2rem;
 }
 
 /* ---------- Typography ---------- */
