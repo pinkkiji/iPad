@@ -50,7 +50,8 @@ header, nav {
   padding: 1rem;
   margin: 0;
   background-color: #ddd;
-  border-end-end-radius: var(--radius-card);
+  border-bottom-left-radius: var(--radius-card);
+  border-bottom-right-radius: var(--radius-card);
 }
 
 /* ---------- Card Block ---------- */
@@ -59,7 +60,7 @@ header, nav {
   border-radius: var(--radius-card);
   padding: 2rem;
   box-shadow: var(--shadow-card);
-  margin: 2rem; 
+  margin: 1rem; 
   max-width: 95%;
 }
 
