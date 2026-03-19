@@ -58,8 +58,7 @@ header, nav {
   border-radius: var(--radius-card);
   padding: 2rem;
   box-shadow: var(--shadow-card);
-  margin: 2rem;
-  max-width: 1vw;
+  margin: 2rem; 
 }
 
 /* ---------- Typography ---------- */
