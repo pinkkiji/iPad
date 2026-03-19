@@ -49,6 +49,7 @@ header, nav {
   height: 4rem;
   padding: 1rem;
   margin: 0;
+  box-shadow: var(--shadow-card);
   background-color: #ddd;
   border-bottom-left-radius: var(--radius-card);
   border-bottom-right-radius: var(--radius-card);
