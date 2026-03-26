@@ -43,11 +43,8 @@ header, nav {
   padding: 0;
 }
 
-image {
-}
-
 .header {
-  font-family: var(--font-display);
+  font-family: var(--font-main);
   font-size: 2rem;
   width: 100%;
   height: 4rem;
@@ -84,7 +81,7 @@ image {
 
 /* ---------- Typography ---------- */
 h1 {
-  font-family: var(--font-display);
+  font-family: var(--font-main);
   font-size: clamp(2.5rem, 6vw, 5rem);
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -96,7 +93,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-display);
+  font-family: var(--font-main);
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 700;
   letter-spacing: -0.02em;
