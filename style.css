@@ -70,6 +70,11 @@ header, nav {
   gap: 1rem;
 }
 
+.artwork {
+  aspect-ratio: 16/9;
+  margin: 1rem; 
+}
+
 /* ---------- Typography ---------- */
 h1 {
   font-family: var(--font-display);
