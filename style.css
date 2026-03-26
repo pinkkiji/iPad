@@ -42,6 +42,10 @@ header, nav {
   padding: 0;
 }
 
+image {
+  width: 1fr;
+}
+
 .header {
   font-family: var(--font-display);
   font-size: 2rem;
