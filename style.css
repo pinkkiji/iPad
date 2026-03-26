@@ -12,6 +12,7 @@
   --accent:  #6ef0c8;
   --text:    #1a1b4b;
   --muted:   #6b6b80;
+  --font-color: #111111;
 
   --font-main:    'Urbanist', sans-serif;
   --font-display: 'Urbanist', sans-serif;
@@ -53,7 +54,7 @@ image {
   padding: 1rem;
   margin: 0;
   box-shadow: var(--shadow-card);
-  background-color: #eff;
+  background-color: #e0ffff;
   border-bottom-left-radius: var(--radius-card);
   border-bottom-right-radius: var(--radius-card);
 }
