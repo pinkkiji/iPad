@@ -10,11 +10,10 @@
   --bg-to:    #93c5fd;
   --card-bg:  #ffffff;
   --accent:  #6ef0c8;
-  --text:    #1a1b4b;
+  --text:    #404040;
   --muted:   #6b6b80;
-  --font-color: #111111;
 
-  --font-main:    'Urbanist', sans-serif, #404040;
+  --font-main:    'Urbanist', sans-serif;
   --font-display: 'Urbanist', sans-serif;
   --font-body:    'DM Sans', sans-serif;
 
