@@ -65,6 +65,11 @@ header, nav {
   max-width: 95%;
 }
 
+.gallery {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
 /* ---------- Typography ---------- */
 h1 {
   font-family: var(--font-display);
