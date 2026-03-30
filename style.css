@@ -77,6 +77,10 @@ header, nav {
   align-items: center;
 }
 
+.artwork img {
+  width: 100%;
+}
+
 /* ---------- Typography ---------- */
 h1 {
   font-family: var(--font-main);
