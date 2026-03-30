@@ -62,7 +62,7 @@ header, nav {
   padding: 2rem;
   box-shadow: var(--shadow-card);
   margin: 1rem; 
-  max-width: 95%;
+  max-width: 1fr;
 }
 
 .gallery {
