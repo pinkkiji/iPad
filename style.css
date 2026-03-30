@@ -64,9 +64,12 @@ header, nav {
   margin: 1rem; 
 }
 
-.artwork {
+.gallery {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+}
+
+.artwork {
   aspect-ratio: 16/9;
   margin: 1rem; 
   display: flex;
