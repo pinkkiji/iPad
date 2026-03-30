@@ -65,13 +65,14 @@ header, nav {
 }
 
 .gallery {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+  width: 100%;
 }
 
 .artwork {
   aspect-ratio: 16/9;
-  margin: 1rem; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,6 +80,7 @@ header, nav {
 
 .artwork img {
   width: 100%;
+  max-width: 100%;
 }
 
 /* ---------- Typography ---------- */
