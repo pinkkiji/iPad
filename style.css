@@ -66,6 +66,7 @@ header {
   padding: 0;
   gap: 1.5rem;
   font-size: 13px;
+  color: var(--text);
 }
 
 /* ---------- Card Block ---------- */
