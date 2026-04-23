@@ -97,6 +97,19 @@ header {
   size: 10%;
 }
 
+.area1 {
+  display: flex;
+}
+
+.iconarea {
+  width: 1fr;
+  max-width: 35%;
+}
+
+.description {
+  width: 1fr;
+}
+
 /* ---------- Card Block ---------- */
 .card {
   background: var(--card-bg);
