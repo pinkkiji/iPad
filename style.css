@@ -45,7 +45,7 @@ h2 {
 }
 
 p { color: var(--muted); max-width: 60ch; }
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--text); text-decoration: none; }
 a:hover { opacity: 0.75; }
 
 
