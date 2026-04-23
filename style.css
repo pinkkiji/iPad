@@ -25,6 +25,30 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 /* ---------- Base ---------- */
+h1 {
+  font-family: var(--font-main);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--text) 40%, var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-family: var(--font-main);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+p { color: var(--muted); max-width: 60ch; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { opacity: 0.75; }
+
+
 body {
   font-family: var(--font-main);
   min-height: 100vh;
@@ -102,25 +126,3 @@ header {
 }
 
 /* ---------- Typography ---------- */
-h1 {
-  font-family: var(--font-main);
-  font-size: clamp(2.5rem, 6vw, 5rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  background: linear-gradient(135deg, var(--text) 40%, var(--accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-h2 {
-  font-family: var(--font-main);
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-p { color: var(--muted); max-width: 60ch; }
-a { color: var(--accent); text-decoration: none; }
-a:hover { opacity: 0.75; }
