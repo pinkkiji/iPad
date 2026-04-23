@@ -69,6 +69,10 @@ header {
   color: var(--text);
 }
 
+.logo {
+  size: 10%;
+}
+
 /* ---------- Card Block ---------- */
 .card {
   background: var(--card-bg);
