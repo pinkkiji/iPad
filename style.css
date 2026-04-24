@@ -103,16 +103,20 @@ header {
 
 .area1 {
   display: flex;
-  gap: 1rem;  
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr;  
+}
+
+@media (max-width: 768px) {
+  .area1 {
+    grid-template-columns: 1fr;
+  }
 }
 
 .iconarea {
-  width: 1fr;
-  max-width: 35%;
 }
 
 .description {
-  width: 1fr;
 }
 
 /* ---------- Card Block ---------- */
