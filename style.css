@@ -44,7 +44,11 @@ h2 {
   letter-spacing: -0.02em;
 }
 
-p { color: var(--muted); max-width: 60ch; }
+p {
+  color: var(--muted);
+  max-width: 60ch;
+  overflow-wrap: anywhere;
+}
 a { color: var(--text); text-decoration: none; }
 a:hover { opacity: 0.75; }
 
