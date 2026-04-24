@@ -99,6 +99,7 @@ header {
 
 .area1 {
   display: flex;
+  gap: 1rem;  
 }
 
 .iconarea {
