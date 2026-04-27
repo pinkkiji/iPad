@@ -101,19 +101,19 @@ header {
   size: 10%;
 }
 
-.area1 {
+.container1 {
   display: flex;
   gap: 1rem;
   grid-template-columns: 1fr 2fr;  
 }
 
-@media (max-width: 1080px) {
-  .area1 {
+@media (max-width: 1024px) {
+  .container1 {
     grid-template-columns: 1fr;
   }
 }
 
-.iconarea {
+.icon {
 }
 
 .description {
