@@ -102,6 +102,7 @@ header {
 }
 
 .container1 {
+  width: auto;
   display: flex;
   gap: 1rem;
   grid-template-columns: 1fr 2fr;  
@@ -109,6 +110,7 @@ header {
 
 .icon {
   width: auto;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
   border: #ffffff;
@@ -118,10 +120,12 @@ header {
 @media (max-width: 1024px) {
   .container1 {
     grid-template-columns: 1fr;
+    width: auto;
   }
 
   .icon {
   width: auto;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
   border: #ffffff;
