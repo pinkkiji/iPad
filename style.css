@@ -114,6 +114,11 @@ header {
 }
 
 .icon {
+  width: 1fr;
+  border-radius: 50%;
+  object-fit: cover;
+  border: #ffffff;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .description {
