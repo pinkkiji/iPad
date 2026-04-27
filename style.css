@@ -125,11 +125,6 @@ header {
 
   .icon {
   width: auto;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  object-fit: cover;
-  border: #ffffff;
-  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   }
 
 }
