@@ -119,8 +119,8 @@ header {
 
 @media (max-width: 1024px) {
   .container1 {
-    grid-template-columns: 1fr;
     width: auto;
+    grid-template-columns: 1fr;
   }
 
   .icon {
@@ -128,7 +128,6 @@ header {
   }
 
 }
-
 
 .description {
 }
