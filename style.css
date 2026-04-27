@@ -103,12 +103,12 @@ header {
 
 .container1 {
   width: auto;
-  display: flex;
+  display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 2fr;  
 }
 
-.icon {
+.iconimg {
   width: auto;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
@@ -121,10 +121,6 @@ header {
   .container1 {
     width: auto;
     grid-template-columns: 1fr;
-  }
-
-  .icon {
-  width: auto;
   }
 
 }
